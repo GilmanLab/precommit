@@ -1,0 +1,6 @@
+- id: jsonnetfmt
+  name: Jsonnet format
+  description: This hook applies jsonnetfmt to jsonnet files
+  entry: bitnami/jsonnet:latest
+  language: docker_image
+  types: [text]
